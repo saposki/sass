@@ -1,8 +1,10 @@
-aside{
-  ul{
-    margin: 0;
-  }
-  li{
-    color: red;
+@mixin border ($thickness) {
+  border-width: $thickness;
+  @content;
+}
+
+img {
+  @include border(10px){
+    border-style: solid;
   }
 }
