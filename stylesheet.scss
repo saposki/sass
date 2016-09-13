@@ -1,6 +1,7 @@
-$color: #000;
+@mixin border ($thickness) {
+  border-width: $thickness;
+}
 
-
-body{
-  color: $color;
+img {
+  border-width: 10px;
 }
