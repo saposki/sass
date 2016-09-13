@@ -1,6 +1,8 @@
-$color: #000;
-
-
-body{
-  color: $color;
+aside{
+  ul{
+    margin: 0;
+  }
+  li{
+    color: red;
+  }
 }
