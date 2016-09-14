@@ -1,8 +1,6 @@
-aside{
-  ul{
-    margin: 0;
-  }
-  li{
+button {
+  color: black;
+  &:focus{
     color: red;
   }
 }
