@@ -1,8 +1,5 @@
-aside{
-  ul{
-    margin: 0;
-  }
-  li{
-    color: red;
+@each $big-cat in cheetah, puma, jaguar, panther, tiger, leopard {
+  .#{$big-cat}-picture {
+    padding: 3em;
   }
 }
